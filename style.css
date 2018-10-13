@@ -1,0 +1,16 @@
+body{
+        text-align: center;
+        background-color: #E0E0E0;
+    }
+img{
+ max-width: 25em;
+ max-height: 25em;
+ padding: 1.5em;
+ display: block;
+ margin: 0 auto;
+}
+@media screen and (max-width: 578px){
+	img{
+		max-width: 8em;
+		max-height: 8em;
+}
