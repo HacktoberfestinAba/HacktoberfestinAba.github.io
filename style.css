@@ -9,6 +9,12 @@ img{
  display: block;
  margin: 0 auto;
 }
+h1,h2,h3,h4{
+	line-height: 1.5em;
+	max-width: 100%;
+}
+
+
 @media screen and (max-width: 578px){
 	img{
 		max-width: 8em;
