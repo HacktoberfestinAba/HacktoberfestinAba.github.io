@@ -2,8 +2,5 @@
 
 ### Example
 - full name , [GitHub username](link)
-
----
-1 opara prosper
-2 john doe
+- Erick D. Machado Alvarez , [GitHub emachado9202](link)
 ---
