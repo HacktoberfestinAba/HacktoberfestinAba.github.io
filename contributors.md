@@ -6,5 +6,5 @@
 ---
 1 opara prosper
 2 john doe
-3 Donishka Tharindu ,[https://github.com/Donishka](link)
+3 Donishka Tharindu ,[Donishka](link)
 ---
