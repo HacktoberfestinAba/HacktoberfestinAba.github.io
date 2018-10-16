@@ -2,7 +2,7 @@
 This website is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
 More about GitHub Pages: https://pages.github.com/
 
-##About
+## About
 As a means of encouraging participation during Hacktoberfest 2018, this project targets those relatively new to the open source ecosystem and programming in general, but are eager to learn and improve their creative skills by contributing to projects on GitHub.
 
 By creating issues that require easy to complete tasks, we are providing a platform where beginners can readily join the open source movement without being overwhelmed with the restrictions and complexities that plague already established open source projects. We hope that contributors will continue to  confidence as they continue to contribute to this project.
