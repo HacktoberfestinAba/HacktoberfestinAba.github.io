@@ -28,3 +28,8 @@ In line with Hacktoberfest value #2 (Quantity is fun, Quality is key), we have p
 
 Something that's clearly an attempt to simply +1 your PR count for October.
 Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whitespace... not.
+
+## What Is Hacktoberfest
+Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
+The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
+
