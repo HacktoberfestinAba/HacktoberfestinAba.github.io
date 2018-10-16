@@ -6,7 +6,9 @@
 
 ---
 
+Hippo Pesar
 - Opara Prosper
 - Fayvor George, [@phavor](https://github.com/phavor)
+- Hippo Pear,  [@hippoesar](https://github.com/hippoesar)
 
 ---
