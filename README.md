@@ -95,7 +95,7 @@ We use [Git](https://git-scm.com/) for versioning. For the versions available, s
 ## Author
 
 * David C. Onoh [davidconoh](https://github.com/davidconoh)
-* Prosper Opara [0PARA-PROSPER](https://github.com/OPARA-PROSPER)
+* Prosper Opara [OPARA-PROSPER](https://github.com/OPARA-PROSPER)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
