@@ -1,10 +1,14 @@
 # Contributors
 
-### Example
-- full name , [GitHub username](link)
+## Example
+
+- full name , [@github_username](link)
 
 ---
-1 opara prosper
-2 john doe
-3 Hippo Pesar
+
+Hippo Pesar
+- Opara Prosper
+- Fayvor George, [@phavor](https://github.com/phavor)
+- Hippo Pear,  [@hippoesar](https://github.com/hippoesar)
+
 ---
