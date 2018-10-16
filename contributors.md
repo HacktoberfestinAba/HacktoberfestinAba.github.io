@@ -4,6 +4,5 @@
 - full name , [GitHub username](link)
 
 ---
-1 opara prosper
-2 john doe
+1. Lisa B., [GitHub](https://www.github.com/lisablunt)
 ---
