@@ -39,6 +39,12 @@
 
 }
 
+/* Reset && Normalize client style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header h1 {
     font-size: 4em;
 }
@@ -74,7 +80,7 @@ body {
     font-family: 'News Cycle' !important;
 }
 
-#header {
+.header {
     background-color: transparent;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=100);
@@ -92,7 +98,7 @@ body {
     z-index: 500;
 }
 
-#header #header-content {
+.header #header-content {
     margin: 5px;
 }
 
