@@ -11,7 +11,7 @@ Please, first read our [CODE OF CONDUCT](https://github.com/HacktoberfestinAba/H
 3. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [Git](http://git-scm.com/).
 4. You may merge the Pull Request once you have the sign-off of two maintainers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
-## Example
+# Example
 
 - full name , [@github_username](link)
 
