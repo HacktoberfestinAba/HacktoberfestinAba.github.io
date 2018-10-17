@@ -118,6 +118,7 @@ header section {
 
 .carousel-inner {
     text-align: center;
+    width: 100%;
 }
 
 .carousel .item > img {
