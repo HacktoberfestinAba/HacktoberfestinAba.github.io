@@ -15,6 +15,35 @@
 
     header {
         background-color: #582D41;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logo {
+      margin-right: 10px;
+      height: 120px;
+      width: 120px;
+    }
+
+    .logo-name-container {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+
+    .nav-container {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 10px;
+      font-size: 30px;
+      width: 50%;
+    }
+
+    .element {
+      width: 10%;
     }
 
     header h1 {
@@ -32,7 +61,7 @@
     article a {
         color: #314052
     }
-    
+
     main > h3 {
         font-size: 2em;
     }
