@@ -1,21 +1,24 @@
-# Hacktoberfest-ABA.github.io
+# HacktoberfestinAba.github.io
+This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
+More about GitHub Pages: https://pages.github.com/
 
-## Hacktoberfest Details
-We ask all participants to read through the details to ensure that the global community is working towards a shared goal. Thanks for honoring the values and following the rules of participation.
+## About
+As a means of encouraging participation during Hacktoberfest 2018, this project targets those relatively new to the open source ecosystem and programming in general, but are eager to learn and improve their creative skills by contributing to projects on GitHub.
 
-### Values
-As we enter our fifth year, we present the Hacktoberfest values. These have been crafted by you, the community, through your actions and stories. All we have done is highlight them.
+By creating issues that require easy to complete tasks, we are providing a platform where beginners can readily join the open source movement without being overwhelmed with the restrictions and complexities that plague already established open source projects. We hope that contributors will continue to  confidence as they continue to contribute to this project.
 
-Everyone is welcome! - Participants in Hacktoberfest represented 119 countries and thousands of skill sets (all unique). This program welcomes everyone already in the open source software community, and anyone who is interested in diving in.
-Quantity is fun, Quality is key - Participating in Hacktoberfest leads to personal growth, professional opportunities, and community building. This all starts with meaningful contributions to open source software.
-Short term action, long term impact - In the open source software community, we are standing on the shoulders of those who came before us. Your participation has a lasting effect on people and technology long after October. This is a voyage, not a race.
+Welcome to the world of Open Source.
 
-## Participation Details
+## What Is Hacktoberfest
+Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
+The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
+
+### Participation Details
 Hacktoberfest is open to everyone in our global community. Whether you’re a seasoned contributor or looking for projects to contribute to for the first time, you’re welcome to participate.
 Pull requests can be made in any GitHub-hosted repositories/projects. As long as the project is public and GitHub-hosted, your PRs will count towards your participation
 You can sign up anytime between October 1 and October 31. Just be sure to sign up on the official Hacktoberfest website for your PRs to count.
 
-## Participation Rules
+### Participation Rules
 To get a shirt, you must make five pull requests (PRs) between October 1–31 in any timezone. PRs can be to any public repo on GitHub, not just the ones highlighted. The PR must contain commits you made yourself. PRs reported by maintainers as spam or that are automated will be marked as invalid and won’t count towards the shirt. This year, the first 50,000 of you can earn a T-shirt (compared with 30,000 in 2017).
 
 ### Completions
@@ -29,7 +32,87 @@ In line with Hacktoberfest value #2 (Quantity is fun, Quality is key), we have p
 Something that's clearly an attempt to simply +1 your PR count for October.
 Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whitespace... not.
 
-## What Is Hacktoberfest
-Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
-The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
+### Prerequisites
+To work on this project from your local machine, you would need basic understanding of [Git](https://git-scm.com/) and the [GitHub Workflow](https://guides.github.com/introduction/flow/). Also, experience with web technologies (HTML, CSS, JavaScript) is recommended but not necessary
+ a Text Editor/Web IDE, and a recent version of any popular web browser.
 
+### Installing
+**Note:** *The dollar sign '$' represents input interface of Mac and Linux machines. Windows users may consider installing Git-Bash.*
+
+On your local machine, navigate to the folder you want to hold your project.
+```
+$ cd /path-to-folder
+```
+Clone the forked repository from GitHub.
+```
+$ git clone https://github.com/<yourusername>/HacktoberfestinAba.github.io
+```
+Navigate into the cloned repository.
+```
+$ cd project
+```
+Create a new branch.
+```
+$ git branch dev-<yourusername>
+```
+Switch to your new branch.
+```
+$ git checkout dev-<yourusername>
+```
+Make the changes you want on your new branch and when you are done, you can verify the changes using `git status`.
+
+To commit your changes,
+first stage the files for commit.
+```
+$ git add <filename1> <filename2>
+```
+Verify that the files have been staged.
+```
+$ git status
+```
+Then make your commit.
+```
+$ git commit -m 'commit message'
+```
+To merge your modifications from the development branch, first switch to the `master` branch.
+```
+$ git checkout master
+```
+Merge the development branch with the `master` branch.
+```
+$ git merge dev-<yourusername>
+```
+Finally, push your changes to your GitHub repository.
+```
+$ git push origin master
+```
+
+## Deployment
+
+This project doesn't require you running a live server on your local machine. Simply navigate to the project folder and open the `index.html` file to get started.
+
+## Built With
+
+* [HTML, CSS & Javascript](https://) - Web Technologies
+* [Git](https://git-scm.com) - Version Control System
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/HacktoberfestinAba/HacktoberfestinAba.github.io/CONTRIBUTING.md) for details on our [code of conduct](), and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Git](https://git-scm.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/HacktoberfestinAba/HacktoberfestinAba.github.io/tags).
+
+## Author
+
+* David C. Onoh [davidconoh](https://github.com/davidconoh)
+* Prosper Opara [OPARA-PROSPER](https://github.com/OPARA-PROSPER)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+* [DigitalOcean](http://digitalocean.com/)
+* [GitHub](http://github.com/)
+* [Twilio](http://twilio.com/)
