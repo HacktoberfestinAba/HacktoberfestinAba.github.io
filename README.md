@@ -33,3 +33,5 @@ Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whites
 Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
 The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
 
+### what is hacktoberfest
+Contributors. Find an issue labeled Hacktoberfest to find projects that are actively involved and welcoming PRs, but remember you aren't limited to those. Often the best project to contribute to is something you use or depend on every day.
