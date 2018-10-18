@@ -1,10 +1,20 @@
-# HacktoberfestinAba.github.io
+# Hacktoberfest in Aba
 
-This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
+![Hacktoberfest Logo](img/hacktoberfest.png)
+[Hacktoberfest Website](https://hacktoberfest.digitalocean.com/)
+[Official Website for This Repo](http://hacktoberfestinaba.github.io)
 
-More about GitHub Pages: https://pages.github.com/
 
-## About
+> This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io). More about GitHub Pages: https://pages.github.com/
+
+
+## 💡 What Is Hacktoberfest
+
+Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
+The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
+> Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small—bug fixes and documentation updates are valid ways of participating.
+
+## 🕯 About
 
 As a means of encouraging participation during Hacktoberfest 2018, this project targets those relatively new to the open source ecosystem and programming in general, but are eager to learn and improve their creative skills by contributing to projects on GitHub.
 
@@ -12,35 +22,52 @@ By creating issues that require easy to complete tasks, we are providing a platf
 
 Welcome to the world of Open Source.
 
-## Getting Started
+## 📑 Getting Started
 
 Aiming to be very beginner friendly and to advocate simplicity and clarity, these instructions will get you a copy of this project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 Fork this repository and get started.
 
-### Rules
+## ⚠️ Rules
 
 * Use Pull requests, do not commit to the Master branch or we risk running into conflicting commits.  
 * Changes must be confirmed.
-* Project maintainers will be in charge of monitoring issues, reviewing submitted patches and merging pull requests. 
+* Project maintainers will be in charge of monitoring issues, reviewing submitted patches and merging pull requests.
 * Member contributors will be responsible for collaborating with external contributors to tackle project issues and submit patches via pull requests.
 * Please update this readme as needed.
 
-## What Is Hacktoberfest
 
-Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
-The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
-
-### Participation Details
+### 😄 Participation Details
 
 Hacktoberfest is open to everyone in our global community. Whether you’re a seasoned contributor or looking for projects to contribute to for the first time, you’re welcome to participate.
 Pull requests can be made in any GitHub-hosted repositories/projects. As long as the project is public and GitHub-hosted, your PRs will count towards your participation
 You can sign up anytime between October 1 and October 31. Just be sure to sign up on the official Hacktoberfest website for your PRs to count.
 
-### Participation Rules
+### ❇️❇️❇️ Participation Rules
 
 To get a shirt, you must make five pull requests (PRs) between October 1–31 in any timezone. PRs can be to any public repo on GitHub, not just the ones highlighted. The PR must contain commits you made yourself. PRs reported by maintainers as spam or that are automated will be marked as invalid and won’t count towards the shirt. This year, the first 50,000 of you can earn a T-shirt (compared with 30,000 in 2017).
 
-### Completions
+* Create an account on GitHub: [Github](https://github.com);
+* Follow the event to account for each of the contributions: [Hacktoberfest](https://hacktoberfest.digitalocean.com/);
+* You need to know how Git works: [GitHub](https://help.github.com/) , [Digital Ocean](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) .
+
+
+### Maintaining a repo?
+
+Create issues labeled or label existing ones “Hacktoberfest” on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant PRs with the "invalid" label to disqualify them.
+
+### How do I track my progress?
+Log in with your GitHub account at https://hacktoberfest.digitalocean.com/ to check your progress and stats.
+
+### I completed 5 PRs. When will I receive my t-shirt?
+We will start sending out emails with more details on redeeming t-shirts throughout the month. Stay tuned!
+
+### How do I get stickers?
+Stickers are included with your t-shirt, once you complete 5 PRs.
+
+### What happens if I complete fewer than 5 PRs by the end of the month?
+Unfortunately you will have to submit at least 5 PRs in order to get a T-shirt
+
+### 🏃🏃🏃 Completions
 
 Quality Standards
 In line with Hacktoberfest value #2 (Quantity is fun, Quality is key), we have provided examples of the quality standards we encourage. This applies mainly to beginners.
@@ -57,7 +84,7 @@ Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whites
 To work on this project from your local machine, you would need basic understanding of [Git](https://git-scm.com/) and the [GitHub Workflow](https://guides.github.com/introduction/flow/). Also, experience with web technologies (HTML, CSS, JavaScript) is recommended but not necessary
  a Text Editor/Web IDE, and a recent version of any popular web browser.
 
-### Installing
+## Installing
 
 **Note:** *The dollar sign '$' represents input interface of Mac and Linux machines. Windows users may consider installing Git-Bash.*
 
@@ -109,7 +136,7 @@ Finally, push your changes to your GitHub repository.
 $ git push origin master
 ```
 
-## Deployment
+## 📥 Deployment
 
 This project doesn't require you running a live server on your local machine. Simply navigate to the project folder and open the `index.html` file to get started.
 
@@ -118,23 +145,30 @@ This project doesn't require you running a live server on your local machine. Si
 * [HTML, CSS & Javascript](https://) - Web Technologies
 * [Git](https://git-scm.com) - Version Control System
 
-## Contributing
+## ➕ Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/HacktoberfestinAba/HacktoberfestinAba.github.io/CONTRIBUTING.md) for details on our [code of conduct](), and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our [code of conduct](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## Versioning
 
 We use [Git](https://git-scm.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/HacktoberfestinAba/HacktoberfestinAba.github.io/tags).
 
-## Author
+## 📖 Authors
 
 * David C. Onoh [davidconoh](https://github.com/davidconoh)
 * Prosper Opara [OPARA-PROSPER](https://github.com/OPARA-PROSPER)
 
-## License
+## ✔️ License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## ✔️✔️✔️ Acknowledgments
+
 * [DigitalOcean](http://digitalocean.com/)
 * [GitHub](http://github.com/)
 * [Twilio](http://twilio.com/)
+
+
+:wink:
+
+
