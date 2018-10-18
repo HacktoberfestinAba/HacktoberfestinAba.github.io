@@ -1,11 +1,18 @@
 # Hacktoberfest in Aba
 
-This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
-More about GitHub Pages: https://pages.github.com/
+![Hacktoberfest Logo](img/hacktoberfest.png)
+[Hacktoberfest Website](https://hacktoberfest.digitalocean.com/)
+[Official Website for This Repo](http://hacktoberfestinaba.github.io)
 
-# What's Hacktoberfest?
 
-Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small—bug fixes and documentation updates are valid ways of participating.
+> This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io). More about GitHub Pages: https://pages.github.com/
+
+
+## 💡 What Is Hacktoberfest
+
+Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
+The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
+> Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small—bug fixes and documentation updates are valid ways of participating.
 
 ## 🕯 About
 
@@ -28,10 +35,6 @@ Fork this repository and get started.
 * Member contributors will be responsible for collaborating with external contributors to tackle project issues and submit patches via pull requests.
 * Please update this readme as needed.
 
-## 💡 What Is Hacktoberfest
-
-Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
-The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
 
 ### 😄 Participation Details
 
@@ -42,6 +45,11 @@ You can sign up anytime between October 1 and October 31. Just be sure to sign u
 ### ❇️❇️❇️ Participation Rules
 
 To get a shirt, you must make five pull requests (PRs) between October 1–31 in any timezone. PRs can be to any public repo on GitHub, not just the ones highlighted. The PR must contain commits you made yourself. PRs reported by maintainers as spam or that are automated will be marked as invalid and won’t count towards the shirt. This year, the first 50,000 of you can earn a T-shirt (compared with 30,000 in 2017).
+
+* Create an account on GitHub: [Github](https://github.com);
+* Follow the event to account for each of the contributions: [Hacktoberfest](https://hacktoberfest.digitalocean.com/);
+* You need to know how Git works: [GitHub](https://help.github.com/) , [Digital Ocean](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) .
+
 
 ### Maintaining a repo?
 
@@ -162,6 +170,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 :wink:
-
 
 
