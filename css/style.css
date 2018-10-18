@@ -123,6 +123,7 @@ header section {
 .carousel .item > img {
     display: inline-block;
     z-index: 200;
+    width: 100%;
 }
 
 
@@ -145,3 +146,5 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter;
 }
+
+/* REDESIGN */
