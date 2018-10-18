@@ -1,8 +1,8 @@
-# HacktoberfestinAba.github.io
+# Hacktoberfest in Aba
 
 This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
-
 More about GitHub Pages: https://pages.github.com/
+
 
 ## 🕯 About
 
@@ -39,6 +39,22 @@ You can sign up anytime between October 1 and October 31. Just be sure to sign u
 ### ❇️❇️❇️ Participation Rules
 
 To get a shirt, you must make five pull requests (PRs) between October 1–31 in any timezone. PRs can be to any public repo on GitHub, not just the ones highlighted. The PR must contain commits you made yourself. PRs reported by maintainers as spam or that are automated will be marked as invalid and won’t count towards the shirt. This year, the first 50,000 of you can earn a T-shirt (compared with 30,000 in 2017).
+
+### Maintaining a repo?
+
+Create issues labeled or label existing ones “Hacktoberfest” on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant PRs with the "invalid" label to disqualify them.
+
+### How do I track my progress?
+Log in with your GitHub account at https://hacktoberfest.digitalocean.com/ to check your progress and stats.
+
+### I completed 5 PRs. When will I receive my t-shirt?
+We will start sending out emails with more details on redeeming t-shirts throughout the month. Stay tuned!
+
+### How do I get stickers?
+Stickers are included with your t-shirt, once you complete 5 PRs.
+
+### What happens if I complete fewer than 5 PRs by the end of the month?
+Unfortunately you will have to submit at least 5 PRs in order to get a T-shirt
 
 ### 🏃🏃🏃 Completions
 
@@ -142,3 +158,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 * [Twilio](http://twilio.com/)
 
 :wink:
+
+
+
