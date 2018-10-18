@@ -11,10 +11,12 @@
 @media not print {
     body {
         color: #635959;
+        padding: 0;
     }
 
     header {
         background-color: #582D41;
+        display: flex;
     }
 
     header h1 {
@@ -32,7 +34,7 @@
     article a {
         color: #314052
     }
-    
+
     main > h3 {
         font-size: 2em;
     }
