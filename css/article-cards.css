@@ -15,7 +15,7 @@
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-    width: 100%;
+    width: 305px;
     height: 630px;
     padding: 10px 20px 20px;
 }
@@ -27,6 +27,19 @@
 .card-title {
     color: #8c1018;
     font-size: 18px;
+    padding-top: 10px;
+}
+
+.author-name {
+    color: #8c1018cc;
+    font-size: 0.75em;
+}
+
+.read-button {
+    position: absolute;
+    top: 590px;
+    height: 40px;
+    width: 265px;
 }
 
 .social-card-header {
