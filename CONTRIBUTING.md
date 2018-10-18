@@ -24,5 +24,6 @@ Please, first read our [CODE OF CONDUCT](https://github.com/HacktoberfestinAba/H
 - Hippo Pear,  [@hippoesar](https://github.com/hippoesar)
 - Oladeji Omodamola, [@darmhoo](https://github.com/darmhoo)
 - David C. [@davidconoh](https://github.com/davidconoh)
+- Darren Rector, [@darrenrector91](https://github.com/darrenrector91)
 
 ---
