@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'News Cycle';
+    src: url('../fonts/news_cycle.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Contrail One';
+    src: url('../fonts/contrail_one.ttf') format('truetype');
+}
+
+@media not print {
+    body {
+        color: #635959;
+    }
+
+    header {
+        background-color: #582D41;
+    }
+
+    header h1 {
+        color: #01FFFF;
+    }
+
+    header h2 {
+        color: #FF9A56;
+    }
+
+    h3, article h4 {
+        color: #8c1018;
+    }
+
+    article a {
+        color: #314052
+    }
+    
+    main > h3 {
+        font-size: 2em;
+    }
+
+}
+
+@media print {
+    header {
+        padding: 0px;
+    }
+
+    article {
+        box-shadow: none;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        display: none;
+    }
+}
+
+/* Reset && Normalize client style */
+* {
+    margin: 0 !important;
+    padding: 0;
+}
+
+body {
+    font-family: 'News Cycle' !important;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+.header {
+    background-color: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=100);
+    /* -moz-opacity: 0.8; */
+    /* -khtml-opacity: 0.8; */
+    /* opacity: 0.8; */
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.header #header-content {
+    margin: 5px;
+}
+
+.topnav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0 2rem;
+    background: #582d41;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav a {
+    color: #eeecec;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header section {
+    padding-top: 8rem;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel .item > img {
+    display: inline-block;
+    z-index: 200;
+    width: 100vw;
+}
+
+
+main {
+    padding: 5px 10px;
+}
+
+main figure > figcaption {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+main figure > figcaption::before {
+    content: 'Pictured above:';
+    font-weight: bold;
+}
+
+article > time {
+    float: right;
+    font-size: 0.75em;
+    font-weight: lighter;
+}
