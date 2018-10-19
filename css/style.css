@@ -15,7 +15,7 @@
     }
 
     header {
-        background-color: #582D41;
+        background-color: #183A37;
         display: flex;
     }
 
@@ -60,8 +60,8 @@
 }
 
 /* Reset && Normalize client style */
-* {
-    margin: 0 !important;
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
     padding: 0;
 }
 
@@ -71,6 +71,12 @@ body {
 
 header h1 {
     font-size: 4em;
+}
+
+h1 {
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .header {
@@ -100,7 +106,7 @@ header h1 {
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-
+}
 .topnav {
     display: flex;
     width: 100%;
@@ -114,13 +120,16 @@ header h1 {
 .nav {
     display: flex;
     justify-content: space-around;
-    width: 40%;
 }
 
 .nav a {
     color: #eeecec;
     text-decoration: none;
     font-weight: 600;
+}
+
+.nav a:hover {
+    text-decoration: underline;
 }
 
 header section {
@@ -135,11 +144,6 @@ header section {
     display: inline-block;
     z-index: 200;
     width: 100vw;
-}
-
-
-main {
-    padding: 5px 10px;
 }
 
 main figure > figcaption {
