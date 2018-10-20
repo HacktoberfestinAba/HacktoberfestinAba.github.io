@@ -721,7 +721,6 @@ if (wheelEvent && isEnabledForBrowser) {
     addEvent('load', init);
 }
 
-
 /***********************************************
  * PUBLIC INTERFACE
  ***********************************************/
