@@ -213,6 +213,13 @@ body section h2 {
 .navbar-toggler .icon-bar+.icon-bar {
     margin-top: 4px;
 }
+.navbar-collapse {
+    background-color: #ccc;
+}
 ul li a {
     font-size: 1em;
+    color: #000;
+}
+ul li {
+    list-style: none;
 }
