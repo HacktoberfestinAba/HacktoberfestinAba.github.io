@@ -167,7 +167,7 @@ body section h2 {
   }
   .navbar-nav .nav-item {
     padding-top: .535rem;
-    float: left;
+    float: right;
   }
   .navbar-divider,
   .navbar-nav .nav-item + .nav-item,
@@ -212,4 +212,7 @@ body section h2 {
 }
 .navbar-toggler .icon-bar+.icon-bar {
     margin-top: 4px;
+}
+ul li a {
+    font-size: 1em;
 }
