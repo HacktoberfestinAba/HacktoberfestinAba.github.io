@@ -140,3 +140,11 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter;
 }
+/* CSS added by Nasrin */
+body section {
+    padding-top: 100px;
+    margin: 15px 0;
+}
+body section h2 {
+    padding-bottom: 20px;
+}
