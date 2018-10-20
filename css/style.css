@@ -11,10 +11,12 @@
 @media not print {
     body {
         color: #635959;
+        padding: 0;
     }
 
     header {
         background-color: #582D41;
+        display: flex;
     }
 
     header h1 {
@@ -32,50 +34,11 @@
     article a {
         color: #314052
     }
-    
+
     main > h3 {
         font-size: 2em;
     }
 
-}
-
-header h1 {
-    font-size: 4em;
-}
-
-main figure > figcaption {
-    font-size: 0.75em;
-    font-style: italic;
-}
-
-main figure > figcaption::before {
-    content: 'Pictured above:';
-    font-weight: bold;
-}
-
-article > time {
-    float: right;
-    font-size: 0.75em;
-    font-weight: lighter;
-}
-
-@media not print {
-}
-
-header {
-    padding: 20px 50px;
-}
-
-main {
-    padding: 5px 10px;
-}
-
-body {
-    font-family: 'News Cycle' !important;
-}
-
-header {
-    font-family: 'Contrail One'
 }
 
 @media print {
@@ -96,10 +59,69 @@ header {
     }
 }
 
+/* Reset && Normalize client style */
+* {
+    margin: 0 !important;
+    padding: 0;
+}
+
+body {
+    font-family: 'News Cycle' !important;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+.header {
+    background-color: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=100);
+    /* -moz-opacity: 0.8; */
+    /* -khtml-opacity: 0.8; */
+    /* opacity: 0.8; */
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.header #header-content {
+    margin: 5px;
+}
+
+header section {
+    padding-top: 8rem;
+}
+
 .carousel-inner {
     text-align: center;
 }
 
 .carousel .item > img {
     display: inline-block;
+    z-index: 200;
+    width: 100vw;
+}
+
+main {
+    padding: 5px 10px;
+}
+
+main figure > figcaption {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+main figure > figcaption::before {
+    content: 'Pictured above:';
+    font-weight: bold;
+}
+
+article > time {
+    float: right;
+    font-size: 0.75em;
+    font-weight: lighter;
 }
