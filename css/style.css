@@ -41,24 +41,6 @@
 
 }
 
-@media print {
-    header {
-        padding: 0px;
-    }
-
-    article {
-        box-shadow: none;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    header h2 {
-        display: none;
-    }
-}
-
 /* Reset && Normalize client style */
 * {
     margin: 0 !important;
@@ -69,7 +51,7 @@ body {
     font-family: 'News Cycle' !important;
 }
 
-header h1 {
+header a {
     font-size: 4em;
 }
 
@@ -92,16 +74,6 @@ header h1 {
     margin: 5px;
 }
 
-.topnav a {
-  float: left;
-  color: #FFA500;
-  text-align: center;
-  padding: 0% 3% 0% 4%;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 .topnav {
     display: flex;
     width: 100%;
@@ -110,6 +82,16 @@ header h1 {
     height: 6rem;
     padding: 0 2rem;
     background: #582d41;
+}
+
+.topnav a {
+  float: left;
+  color: #FFA500;
+  text-align: center;
+  padding: 0% 3% 0% 4%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .nav {
