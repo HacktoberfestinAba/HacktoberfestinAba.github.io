@@ -75,10 +75,6 @@ header a {
     margin: 5px;
 }
 
-header .logo {
-float: left;
-}
-
 .topnav {
     display: flex;
     width: 100%;
