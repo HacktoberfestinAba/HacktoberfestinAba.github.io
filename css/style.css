@@ -148,3 +148,7 @@ body section {
 body section h2 {
     padding-bottom: 20px;
 }
+ #rectangle { 
+    background: gray;
+    text-align: center;
+     } 

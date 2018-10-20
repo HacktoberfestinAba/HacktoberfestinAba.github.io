@@ -661,6 +661,3 @@ if (wheelEvent) {
 }
 
 })();
-
-SmoothScroll.txt
-Displaying SmoothScroll.txt.
