@@ -1,40 +1,13 @@
 # Hacktoberfest in Aba
 
 ![Hacktoberfest Logo](img/hacktoberfest.png)
-[Hacktoberfest Website](https://hacktoberfest.digitalocean.com/)
-[Official Website for This Repo](http://hacktoberfestinaba.github.io)
-
-
-> This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io). More about GitHub Pages: https://pages.github.com/
-
+This repository houses the codebase for the Hacktoberfest in Aba website hosted on GitHub Pages. The live version can be accessed [here](https://HacktoberfestinAba.github.io). More about GitHub Pages: https://pages.github.com/
 
 ## 💡 What Is Hacktoberfest
 
-Hacktoberfest is an event celebrated in October by Github and DigitalOcean based on the German festivity Oktoberfest.
-The main purpose of this event is to stimulate open source contributions on Github by rewarding users tha participate with at least 5 Pull Requests with a T-Shirt.
-> Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small—bug fixes and documentation updates are valid ways of participating.
+Hacktoberfest — brought to you by DigitalOcean in partnership with GitHub and Twilio — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards resolving issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.
 
-## 🕯 About
-
-As a means of encouraging participation during Hacktoberfest 2018, this project targets those relatively new to the open source ecosystem and programming in general, but are eager to learn and improve their creative skills by contributing to projects on GitHub.
-
-By creating issues that require easy to complete tasks, we are providing a platform where beginners can readily join the open source movement without being overwhelmed with the restrictions and complexities that plague already established open source projects. We hope that contributors will continue to  confidence as they continue to contribute to this project.
-
-Welcome to the world of Open Source.
-
-## 📑 Getting Started
-
-Aiming to be very beginner friendly and to advocate simplicity and clarity, these instructions will get you a copy of this project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-Fork this repository and get started.
-
-## ⚠️ Rules
-
-* Use Pull requests, do not commit to the Master branch or we risk running into conflicting commits.  
-* Changes must be confirmed.
-* Project maintainers will be in charge of monitoring issues, reviewing submitted patches and merging pull requests.
-* Member contributors will be responsible for collaborating with external contributors to tackle project issues and submit patches via pull requests.
-* Please update this readme as needed.
-
+Celebrated every month of October based on the German festivity Oktoberfest, the main purpose of this event is to stimulate open source contributions on Github by rewarding users that participate in making at least 5 Pull Requests with a T-Shirt.
 
 ### 😄 Participation Details
 
@@ -50,21 +23,24 @@ To get a shirt, you must make five pull requests (PRs) between October 1–31 in
 * Follow the event to account for each of the contributions: [Hacktoberfest](https://hacktoberfest.digitalocean.com/);
 * You need to know how Git works: [GitHub](https://help.github.com/) , [Digital Ocean](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) .
 
-
 ### Maintaining a repo?
 
-Create issues labeled or label existing ones “Hacktoberfest” on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant PRs with the "invalid" label to disqualify them.
+Create issues or add to existing ones the label “Hacktoberfest” on your GitHub projects to help new contributors know what to work on. Tag any spam or irrelevant PRs with the "invalid" label to disqualify them.
 
 ### How do I track my progress?
+
 Log in with your GitHub account at https://hacktoberfest.digitalocean.com/ to check your progress and stats.
 
 ### I completed 5 PRs. When will I receive my t-shirt?
+
 We will start sending out emails with more details on redeeming t-shirts throughout the month. Stay tuned!
 
 ### How do I get stickers?
+
 Stickers are included with your t-shirt, once you complete 5 PRs.
 
 ### What happens if I complete fewer than 5 PRs by the end of the month?
+
 Unfortunately you will have to submit at least 5 PRs in order to get a T-shirt
 
 ### 🏃🏃🏃 Completions
@@ -78,6 +54,27 @@ In line with Hacktoberfest value #2 (Quantity is fun, Quality is key), we have p
 
 Something that's clearly an attempt to simply +1 your PR count for October.
 Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whitespace... not cool.
+
+## 🕯 About
+
+As a means of encouraging participation during Hacktoberfest 2018, this project targets those relatively new to the open source ecosystem and programming in general, but are eager to learn and improve their creative skills by contributing to projects on GitHub.
+
+By creating issues that require easy to complete tasks, we are providing a platform where beginners can readily join the open source movement without being overwhelmed with the restrictions and complexities they may encounter when trying to contribute to already established open source projects. We hope that new contributors can steadily grow confident while gaining hands-on experience as they continue to contribute to projects like this.
+
+Welcome to the world of Open Source.
+
+## 📑 Getting Started
+
+Aiming to be very beginner friendly and to advocate simplicity and clarity, these instructions will get you a copy of this project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Fork this repository and get started.
+
+## ⚠️ Rules
+
+* Use Pull requests, do not commit to the Master branch or we risk running into conflicting commits.  
+* Changes must be confirmed.
+* Project maintainers will be in charge of monitoring issues, reviewing submitted patches and merging pull requests.
+* Member contributors will be responsible for collaborating with external contributors to tackle project issues and submit patches via pull requests.
+* Please update this readme as needed.
 
 ### Prerequisites
 
@@ -168,7 +165,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 * [GitHub](http://github.com/)
 * [Twilio](http://twilio.com/)
 
-
 :wink:
-
-
