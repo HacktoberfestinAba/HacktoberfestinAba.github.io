@@ -92,6 +92,38 @@ header h1 {
     margin: 5px;
 }
 
+.topnav a {
+  float: left;
+  color: #FFA500;
+  text-align: center;
+  padding: 0% 3% 0% 4%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.topnav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0 2rem;
+    background: #582d41;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav a {
+    color: #eeecec;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 header section {
     padding-top: 8rem;
 }
@@ -105,6 +137,7 @@ header section {
     z-index: 200;
     width: 100vw;
 }
+
 
 main {
     padding: 5px 10px;
