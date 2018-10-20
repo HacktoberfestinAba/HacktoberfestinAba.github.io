@@ -1,5 +1,6 @@
 # HacktoberfestinAba.github.io
-This Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
+Hacktoberfest in Aba webpage is hosted on GitHub Pages and the live version can be accessed [here](https://HacktoberfestinAba.github.io).
+
 More about GitHub Pages: https://pages.github.com/
 
 ## About
@@ -31,6 +32,17 @@ In line with Hacktoberfest value #2 (Quantity is fun, Quality is key), we have p
 
 Something that's clearly an attempt to simply +1 your PR count for October.
 Last but not least, one PR to fix a typo is fine. 5 PRs to remove a stray whitespace... not.
+
+## Getting Started
+Aiming to be very beginner friendly and to advocate simplicity and clarity, these instructions will get you a copy of this project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Fork this repository and get started.
+
+### Rules
+* Use Pull requests, do not commit to the Master branch or we risk running into conflicting commits.  
+* Changes must be confirmed.
+* Project maintainers will be in charge of monitoring issues, reviewing submitted patches and merging pull requests. 
+* Member contributors will be responsible for collaborating with external contributors to tackle project issues and submit patches via pull requests.
+* Please update this readme as needed.
 
 ### Prerequisites
 To work on this project from your local machine, you would need basic understanding of [Git](https://git-scm.com/) and the [GitHub Workflow](https://guides.github.com/introduction/flow/). Also, experience with web technologies (HTML, CSS, JavaScript) is recommended but not necessary
