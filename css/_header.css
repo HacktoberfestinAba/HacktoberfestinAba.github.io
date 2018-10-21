@@ -37,10 +37,23 @@
   margin: 0 10px 0 10px;
 }
 
+header {
+  background-color: #582D41;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+header h1 {
+  color: #01FFFF;
+}
+
+header h2 {
+  color: #FF9A56;
+}
+
 @media only screen and (min-width: 760px) {
-  header {
-    padding: 20px 50px;
-  }
   .logo {
     margin-right: 10px;
     width: 70px;

@@ -14,20 +14,7 @@
         padding: 0;
     }
 
-    header {
-        background-color: #582D41;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header h1 {
-        color: #01FFFF;
-    }
-
-    header h2 {
-        color: #FF9A56;
-    }
+    
 
     h3, article h4 {
         color: #8c1018;
