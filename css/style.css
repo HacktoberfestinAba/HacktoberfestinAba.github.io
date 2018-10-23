@@ -140,3 +140,9 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter;
 }
+/* Extra Style added */
+.carousel-container{
+    width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+}
