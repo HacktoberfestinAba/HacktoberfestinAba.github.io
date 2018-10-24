@@ -110,6 +110,10 @@ header section {
     padding-top: 8rem;
 }
 
+.carousel {
+    padding-top: 1rem;
+}
+
 .carousel-inner {
     text-align: center;
 }
