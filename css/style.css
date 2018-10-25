@@ -118,7 +118,7 @@ body {
     float: right;
     display: block;
     font-size: 25px;
-}
+
 
 .topnav.responsive {
     position: relative;
@@ -249,4 +249,3 @@ body {
   .container {
     margin: 0 auto !important;
   }
-
