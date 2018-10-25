@@ -9,21 +9,23 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
     <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-    <script type='text/javascript' src='js/SmoothScroll.js'></script>
-    <link rel='stylesheet' href='css/application.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='css/style.css' />
 </head>
-<body class="container-fluid">
-    <header class=" header header-content row">
-      <div class="logo-name-container col-md-3">
-        <img src="img/logo.jpg" alt="logo" class="logo">
+<body>
+    <header class=' header header-content row'>
+      <div class='logo-name-container col-xs-3'>
+        <img src='img/logo.jpg' alt='logo' class='logo'>
       </div>
-      <div class='nav-container col-md-9 hidden-xs'>
-
-        <nav class="topnav nav">
-            <a href="#aboutus" class="element" >About</a>
-            <a href="#contributors" class="element">Contributors</a>
-            <a href="#projects" class="element">Projects</a>
-            <a href="#contact" class="element">Contact</a>
+      <div class='nav-container col-xs-9'>
+        <nav class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="$(this).parent().toggleClass('responsive', 1000)">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href='#'>About</a>
+            <a href='#'>Contributors</a>
+            <a href='#'>Projects</a>
+            <a href='#'>Contact</a>
         </nav>
       </div>
       <!-- Menu Mobil -->
