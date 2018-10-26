@@ -134,7 +134,7 @@ h1,h2 {
   text-align: center;
   font-weight: bold;
   display: inline-block;
-  padding-bottom: 5px;
+ margin-bottom: 12px!important;
   border-bottom: 2px solid #8c1018;
 }
 
