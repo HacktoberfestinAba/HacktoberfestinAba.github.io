@@ -6,49 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-    <script type='text/javascript' src='js/SmoothScroll.js'></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script type='text/javascript' src='js/SmoothScroll.js'></script>
     <link rel='stylesheet' href='css/application.css' />
 </head>
-<body class="container-fluid">
-    <header class=" header header-content row">
-      <div class="logo-name-container col-md-3">
-        <img src="img/logo.jpg" alt="logo" class="logo">
-      </div>
-      <div class='nav-container col-md-9 hidden-xs'>
-
-        <nav class="topnav nav">
-            <a href="#aboutus" class="element" >About</a>
-            <a href="#contributors" class="element">Contributors</a>
-            <a href="#projects" class="element">Projects</a>
-            <a href="#contact" class="element">Contact</a>
+<body>
+    <nav class="navbar navbar-inverse main-nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                    <img src="img/logo.jpg" alt="logo" class="logo">
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contributors">Contributors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-      </div>
-      <!-- Menu Mobil -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light  pull-right visible-xs">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#aboutus">About Us <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contributors">Contributors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
     <div>
         <section id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -176,6 +169,7 @@
                 </form>
           </div>
         </summary>
+        <br>
     </div>
     <script type="text/javascript" src="js/SmoothScroll.js" /></script>
     <script type="text/javascript" src="js/SmoothJump.js" /></script>
