@@ -32,7 +32,7 @@
     }
 
     article a {
-        color: #314052
+        color: #314052;
     }
 
     main > h3 {
@@ -125,7 +125,6 @@ header section {
     width: 100vw;
 }
 
-
 main {
     padding: 5px 10px;
 }
@@ -145,6 +144,7 @@ article > time {
     font-size: 0.75em;
     font-weight: lighter;
 }
+
 /* CSS added by Nasrin */
 body section {
     padding-top: 100px;
