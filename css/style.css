@@ -32,7 +32,7 @@
     }
 
     article a {
-        color: #314052
+        color: #314052;
     }
 
     main > h3 {
@@ -75,29 +75,12 @@ header a {
     margin: 5px;
 }
 
-.topnav {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    height: 6rem;
-    padding: 0 2rem;
-}
 
 .topnav a {
-  float: right;
-  color: rgb(104, 74, 17);
+  color: white;
   text-align: center;
-  padding: 0% 3% 0% 4%;
-  text-decoration: none;
   font-weight: bold;
   font-size: 15px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
 }
 
 .nav a {
@@ -106,8 +89,13 @@ header a {
     font-weight: 600;
 }
 
+
 header section {
     padding-top: 8rem;
+}
+
+.carousel {
+    padding-top: 1rem;
 }
 
 .carousel-inner {
@@ -115,11 +103,11 @@ header section {
 }
 
 .carousel .item > img {
+    width: 100%;
     display: inline-block;
     z-index: 200;
     width: 100vw;
 }
-
 
 main {
     padding: 5px 10px;
@@ -139,4 +127,86 @@ article > time {
     float: right;
     font-size: 0.75em;
     font-weight: lighter;
+}
+
+/* CSS added by Nasrin */
+body section {
+    padding-top: 100px;
+    margin: 15px 0;
+}
+body section h2 {
+    padding-bottom: 20px;
+}
+   
+.navbar-brand {
+  float: none;
+}
+.navbar-nav .nav-item {
+  float: none;
+}
+.navbar-divider,
+.navbar-nav .nav-item+.nav-item,
+.navbar-nav .nav-link + .nav-link {
+  margin-left: 0;
+}
+@media (min-width: 34em) {
+  .navbar-brand {
+    float: right;
+    margin-left: 2rem;
+  }
+  .navbar-nav .nav-item {
+    padding-top: .535rem;
+    float: right;
+  }
+  .navbar-divider,
+  .navbar-nav .nav-item + .nav-item,
+  .navbar-nav .nav-link + .nav-link {
+ 
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 34em) {
+  .navbar-brand {
+      display: block;
+      height: 50px;
+      padding: .55rem 0;
+  }
+ 
+}
+ 
+.navbar-toggler {
+    vertical-align:middle;
+    padding: .7rem .7rem;
+    margin: .5rem .25rem;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+ 
+.navbar-toggler {
+    border-color: #ddd;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    background-color: #ddd;
+}
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggler .icon-bar {
+    background-color: #888;
+}
+.navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+ul li a {
+    font-size: 1em;
+    color: #000;
+}
+ul li {
+    list-style: none;
 }
