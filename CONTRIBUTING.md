@@ -28,3 +28,4 @@ Please, first read our [CODE OF CONDUCT](https://github.com/HacktoberfestinAba/H
 - Oladeji Omodamola, [@darmhoo](https://github.com/darmhoo)
 - Manvi, [@The-lady-developer](https://github.com/The-lady-developer)
 - Vinay Sagar Sharma, [@vinay72](https://github.com/vinay72)
+- Shubham Purohit, [@shubham-purohit](https://github.com/shubham-purohit)
