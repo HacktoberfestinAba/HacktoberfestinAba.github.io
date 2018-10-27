@@ -45,6 +45,9 @@
 
 body {
     font-family: 'News Cycle' !important;
+    padding-top: 27px;
+    
+
 }
 
 header a {
@@ -96,6 +99,7 @@ header section {
 
 .carousel-inner {
     text-align: center;
+      box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .carousel .item > img {
@@ -133,7 +137,7 @@ body section {
 body section h2 {
     padding-bottom: 20px;
 }
-   
+
 .navbar-brand {
   float: none;
 }
@@ -157,7 +161,7 @@ body section h2 {
   .navbar-divider,
   .navbar-nav .nav-item + .nav-item,
   .navbar-nav .nav-link + .nav-link {
- 
+
     margin-left: 2rem;
   }
 }
@@ -167,9 +171,9 @@ body section h2 {
       height: 50px;
       padding: .55rem 0;
   }
- 
+
 }
- 
+
 .navbar-toggler {
     vertical-align:middle;
     padding: .7rem .7rem;
@@ -179,7 +183,7 @@ body section h2 {
     border: 1px solid transparent;
     border-radius: 4px;
 }
- 
+
 .navbar-toggler {
     border-color: #ddd;
 }
@@ -200,7 +204,7 @@ body section h2 {
 }
 
 ul li a {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #000;
 }
 ul li {
