@@ -61,7 +61,7 @@ header a {
     filter: alpha(opacity=100);
     /* -moz-opacity: 0.8; */
     /* -khtml-opacity: 0.8; */
-    /* opacity: 0.8; */
+    opacity: 0.8; 
     color: #000;
     position: fixed;
     top: 0;
@@ -193,7 +193,7 @@ body section h2 {
 .navbar-toggler .icon-bar {
     display: block;
     width: 22px;
-    height: 2px;
+    height: 2.5px;
     border-radius: 1px;
 }
 .navbar-toggler .icon-bar {
