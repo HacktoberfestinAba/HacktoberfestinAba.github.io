@@ -1,16 +1,17 @@
+body{
+display: flex;
+}
 .header-container {
-  display: flex;
+  
 }
 
 .logo-name-container {
   align-items: center;
-  display: flex;
-}
+  }
 
 .logo-name-container {
   align-items: center;
-  display: flex;
-}
+  }
 
 .navbar{
   position: fixed;
@@ -30,8 +31,7 @@
 
 .nav-container {
   align-items: center;
-  display: flex;
-  justify-content: flex-end;
+   justify-content: flex-end;
   text-align: center;
 }
 
@@ -63,12 +63,11 @@
 
   .logo-name-container {
     align-items: center;
-    display: flex;
     width: 30%;
   }
   .nav-container {
     align-items: center;
-    display: flex;
+   
     justify-content: flex-end;
     margin-left: 10px;
     text-align: center;
