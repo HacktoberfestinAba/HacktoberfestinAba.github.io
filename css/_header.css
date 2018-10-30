@@ -181,6 +181,12 @@ label {
   color: #8c1018;
   background-color: white;
 }
+
+.button:hover{
+  color: white;
+  background: #8c1018;
+  transition: all .2s ease-in-out;
+}
 .button-div {
   padding: 10px;
   text-align: center;
