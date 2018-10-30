@@ -195,3 +195,7 @@ label {
 .container {
   margin: 0 auto !important;
 }
+
+.text-center p{
+  font-size: 17px;
+}
