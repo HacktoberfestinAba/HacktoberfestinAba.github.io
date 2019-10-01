@@ -49,6 +49,7 @@
 
 body {
     font-family: 'News Cycle' !important;
+    overflow-x: hidden;
 }
 
 header a {
