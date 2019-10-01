@@ -103,6 +103,17 @@ header section {
 
 .carousel-inner {
 	text-align: center;
+	padding-bottom: 45px;
+}
+
+figure.item {
+	position: relative;
+}
+
+figure.item .carousel-caption {
+	position: absolute;
+	bottom: -70px;
+	color: black;
 }
 
 .carousel .item > img {
