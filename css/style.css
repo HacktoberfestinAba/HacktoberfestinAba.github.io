@@ -1,212 +1,225 @@
 @font-face {
-    font-family: 'News Cycle';
-    src: url('../fonts/news_cycle.ttf') format('truetype');
+	font-family: 'News Cycle';
+	src: url('../fonts/news_cycle.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Contrail One';
-    src: url('../fonts/contrail_one.ttf') format('truetype');
+	font-family: 'Contrail One';
+	src: url('../fonts/contrail_one.ttf') format('truetype');
 }
 
 @media not print {
-    body {
-        color: #635959;
-        padding: 0;
-    }
+	body {
+		color: #635959;
+		padding: 0;
+	}
 
-    header {
-        background-color: #582D41;
-        display: flex;
-    }
+	header {
+		background-color: #582d41;
+		display: flex;
+	}
 
-    header h1 {
-        color: #01FFFF;
-    }
+	header h1 {
+		color: #01ffff;
+	}
 
-    header h2 {
-        color: #FF9A56;
-    }
+	header h2 {
+		color: #ff9a56;
+	}
 
-    h3, article h4 {
-        color: #8c1018;
-    }
+	h3,
+	article h4 {
+		color: #8c1018;
+	}
 
-    article a {
-        color: #314052;
-    }
+	article a {
+		color: #314052;
+	}
 
-    main > h3 {
-        font-size: 2em;
-    }
-
+	main > h3 {
+		font-size: 2em;
+	}
 }
 
 /* Reset && Normalize client style */
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: 'News Cycle' !important;
+	font-family: 'News Cycle' !important;
 }
 
 header a {
-    font-size: 4em;
+	font-size: 4em;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .header {
-    background-color: #582d41;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=100);
-    /* -moz-opacity: 0.8; */
-    /* -khtml-opacity: 0.8; */
-    /* opacity: 0.8; */
-    color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 15%;
-    z-index: 500;
+	background-color: #582d41;
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+	filter: alpha(opacity=100);
+	/* -moz-opacity: 0.8; */
+	/* -khtml-opacity: 0.8; */
+	/* opacity: 0.8; */
+	color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	z-index: 500;
 }
 
 .header #header-content {
-    margin: 5px;
+	margin: 5px;
 }
 
-
 .topnav a {
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 .nav a {
-    color: #eeecec;
-    text-decoration: none;
-    font-weight: 600;
+	color: #eeecec;
+	text-decoration: none;
+	font-weight: 600;
 }
 
-
 header section {
-    padding-top: 8rem;
+	padding-top: 8rem;
 }
 
 .carousel {
-    padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 .carousel-inner {
-    text-align: center;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+figure.item {
+	position: relative;
+}
+
+figure.item .carousel-caption {
+	position: absolute;
+	bottom: -70px;
+	color: black;
 }
 
 .carousel .item > img {
-    width: 100%;
-    display: inline-block;
-    z-index: 200;
-    width: 100vw;
+	width: 100%;
+	display: inline-block;
+	z-index: 200;
+	width: 100vw;
 }
 
 main {
-    padding: 5px 10px;
+	padding: 5px 10px;
 }
 
 main figure > figcaption {
-    font-size: 0.75em;
-    font-style: italic;
+	font-size: 0.75em;
+	font-style: italic;
 }
 
 main figure > figcaption::before {
-    content: 'Pictured above:';
-    font-weight: bold;
+	content: 'Pictured above:';
+	font-weight: bold;
 }
 
 article > time {
-    float: right;
-    font-size: 0.75em;
-    font-weight: lighter;
+	float: right;
+	font-size: 0.75em;
+	font-weight: lighter;
 }
 
 /* CSS added by Nasrin */
 body section {
-    padding-top: 100px;
-    margin: 15px 0;
+	padding-top: 100px;
+	margin: 15px 0;
 }
 body section h2 {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
-   
+
 .navbar-brand {
-  float: none;
+	float: none;
 }
 .navbar-nav .nav-item {
-  float: none;
+	float: none;
 }
 .navbar-divider,
-.navbar-nav .nav-item+.nav-item,
+.navbar-nav .nav-item + .nav-item,
 .navbar-nav .nav-link + .nav-link {
-  margin-left: 0;
+	margin-left: 0;
 }
 @media (min-width: 34em) {
-  .navbar-brand {
-    float: right;
-    margin-left: 2rem;
-  }
-  .navbar-nav .nav-item {
-    padding-top: .535rem;
-    float: right;
-  }
-  .navbar-divider,
-  .navbar-nav .nav-item + .nav-item,
-  .navbar-nav .nav-link + .nav-link {
- 
-    margin-left: 2rem;
-  }
+	.navbar-brand {
+		float: right;
+		margin-left: 2rem;
+	}
+	.navbar-nav .nav-item {
+		padding-top: 0.535rem;
+		float: right;
+	}
+	.navbar-divider,
+	.navbar-nav .nav-item + .nav-item,
+	.navbar-nav .nav-link + .nav-link {
+		margin-left: 2rem;
+	}
 }
 @media (max-width: 34em) {
-  .navbar-brand {
-      display: block;
-      height: 50px;
-      padding: .55rem 0;
-  }
- 
+	.navbar-brand {
+		display: block;
+		height: 50px;
+		padding: 0.55rem 0;
+	}
 }
- 
+
 .navbar-toggler {
-    vertical-align:middle;
-    padding: .7rem .7rem;
-    margin: .5rem .25rem;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+	vertical-align: middle;
+	padding: 0.7rem 0.7rem;
+	margin: 0.5rem 0.25rem;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
 }
- 
+
 .navbar-toggler {
-    border-color: #ddd;
+	border-color: #ddd;
 }
-.navbar-toggler:focus, .navbar-toggler:hover {
-    background-color: #ddd;
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+	background-color: #ddd;
 }
 .navbar-toggler .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
 }
 .navbar-toggler .icon-bar {
-    background-color: #888;
+	background-color: #888;
 }
-.navbar-toggler .icon-bar+.icon-bar {
-    margin-top: 4px;
+.navbar-toggler .icon-bar + .icon-bar {
+	margin-top: 4px;
 }
 
 ul li a {
-    font-size: 1em;
-    color: #000;
+	font-size: 1em;
+	color: #000;
 }
 ul li {
-    list-style: none;
+	list-style: none;
 }
