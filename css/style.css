@@ -210,3 +210,11 @@ ul li a {
 ul li {
     list-style: none;
 }
+@media only screen and (max-width: 600px) {
+    h4 {
+        margin: 12px;
+    }
+    p {
+        margin: 24px;
+    }
+}
