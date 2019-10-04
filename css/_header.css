@@ -35,6 +35,11 @@
   text-align: center;
 }
 
+.navbar-nav li a {
+  line-height: 70px;
+  
+}
+
 .nav-container a{
   text-decoration: none;
   color: #e6dddd;
