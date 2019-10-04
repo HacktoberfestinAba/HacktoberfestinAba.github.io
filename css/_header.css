@@ -125,6 +125,9 @@ h1,h2 {
   font-size: 18px;
   text-align: center;
 }
+.main-text p {
+  padding-top: 100px;
+}
 
 .main div {
   margin: 0 auto !important;
