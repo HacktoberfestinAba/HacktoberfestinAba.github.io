@@ -12,6 +12,24 @@
   display: flex;
 }
 
+.cool-link {
+  display: inline-block;
+  color: rgb(36, 18, 26);
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, rgba(255,0,0,0), rgb(37, 19, 28));
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+}
 .navbar{
   position: fixed;
   top: 0;
