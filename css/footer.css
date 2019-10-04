@@ -1,22 +1,25 @@
-
-.footer-wrapper{
-  background: #582e41
+.footer-wrapper {
+  background: #582e41;
 }
 
-.text-uppercase{
+.text-uppercase {
   color: #fff;
   text-transform: uppercase;
 }
 
-.text-uppercase-p{
+.text-uppercase-p {
   color: #fff;
 }
 
-ul  li a{
+ul li a {
   color: #fff;
 }
 
-
-.footer-copyright{
+.footer-copyright {
   color: white;
+  padding-bottom: 1.5em;
+}
+
+.form-control {
+  height: 3em;
 }

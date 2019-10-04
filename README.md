@@ -141,7 +141,7 @@ This project doesn't require you running a live server on your local machine. Si
 
 ## Built With
 
-* [HTML, CSS & Javascript](https://) - Web Technologies
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) & [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Web Technologies
 * [Git](https://git-scm.com) - Version Control System
 
 ## ➕ Contributing
