@@ -19,6 +19,10 @@
         display: flex;
     }
 
+    .heading {
+        margin-top: 50px;
+    }
+
     header h1 {
         color: #01FFFF;
     }

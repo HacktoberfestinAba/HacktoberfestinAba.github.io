@@ -13,6 +13,7 @@
 .btn-primary {
     background-color: #582D41;
     color: white;
+    border: none;
     font-size: 17px;
 }
 
