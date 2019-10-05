@@ -24,6 +24,11 @@
 
 }
 
+.navbar-right {
+  color: white;
+  font-size: 1.2em;
+}
+
 .navbar-inverse .navbar-toggle {
   border-color: white;
 }
