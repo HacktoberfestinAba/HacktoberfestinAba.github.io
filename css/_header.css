@@ -138,6 +138,18 @@ h1,h2 {
   border-bottom: 2px solid #8c1018;
 }
 
+.heading:hover{
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding: 5px ;
+  border-bottom: 2px solid #8c1018;
+   background-color:   #8c1018; 
+  color: white;
+}
+
+
 #articles-section {
   margin: 0 auto !important;
 }
