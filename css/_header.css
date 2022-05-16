@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 15%;
-  background-color: #582d41;
+  background-color: #080808;
   border-radius:0;
   z-index: 500;
 
@@ -85,7 +85,7 @@
     margin: 10px auto !important;
   }
   form {
-    width: 40%;
+    width: 60%;
     margin: 0 auto !important;
   }
 }
@@ -97,7 +97,7 @@
 }
 .carousel-caption {
   font-size: 26px;
-  bottom: 4em;
+  bottom: 1em;
 }
 
 #heading-text {
@@ -195,6 +195,14 @@ label {
   margin: 0 auto !important;
 }
 
+.text-justify p{
+  font-size: 17px;
+}
+
 .text-center p{
+  font-size: 17px;
+}
+
+.list-unstyled a{
   font-size: 17px;
 }

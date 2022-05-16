@@ -16,15 +16,18 @@ Please, first read our [CODE OF CONDUCT](https://github.com/HacktoberfestinAba/H
 
 - full name , [@github_username](link)
 
+## ORGANIZERS
+
+- David Onoh, [@davidconoh](https://github.com/davidconoh)
+- Onwughalu Ifunanya, [@kreativejosh](https://github.com/kreativejosh)
+
 ## MAINTAINERS
 
-- Opara Prosper, [@OPARA-PROSPER](https://github.com/OPARA-PROSPER)
+- Opara Prosper, [@kodekage](https://github.com/kodekage)
 - Fayvor George, [@phavor](https://github.com/phavor)
-- David C. [@davidconoh](https://github.com/davidconoh)
 
 ## CONTRIBUTORS
 
-- Hippo Pear,  [@hippoesar](https://github.com/hippoesar)
 - Oladeji Omodamola, [@darmhoo](https://github.com/darmhoo)
 - Manvi, [@The-lady-developer](https://github.com/The-lady-developer)
 - Vinay Sagar Sharma, [@vinay72](https://github.com/vinay72)
