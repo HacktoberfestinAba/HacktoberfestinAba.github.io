@@ -154,8 +154,8 @@ We use [Git](https://git-scm.com/) for versioning. For the versions available, s
 
 ## 📖 Authors
 
-* David C. Onoh [davidconoh](https://github.com/davidconoh)
-* Prosper Opara [OPARA-PROSPER](https://github.com/OPARA-PROSPER)
+* David Onoh [davidconoh](https://github.com/davidconoh)
+* Prosper Opara [kodekage](https://github.com/kodekage)
 
 ## ✔️ License
 
